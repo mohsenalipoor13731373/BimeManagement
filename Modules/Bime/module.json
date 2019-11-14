@@ -1,0 +1,13 @@
+{
+    "name": "Bime",
+    "alias": "bime",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Bime\\Providers\\BimeServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

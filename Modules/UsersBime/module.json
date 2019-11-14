@@ -1,0 +1,13 @@
+{
+    "name": "UsersBime",
+    "alias": "usersbime",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\UsersBime\\Providers\\UsersBimeServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
