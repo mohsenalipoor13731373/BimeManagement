@@ -47,9 +47,12 @@ class UsersBimeController extends Controller
         }
         return view('usersbime::show');
     }
+
     public function delete(Request $request, UsersBime $id)
     {
         $id->delete();
         return back();
     }
+
+
 }

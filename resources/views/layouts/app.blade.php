@@ -16,11 +16,9 @@
     <link href="{{asset('/vendors/nprogress/nprogress.css')}}" rel="stylesheet">
     <!-- Animate.css -->
     <link href="{{asset('/vendors/animate.css/animate.min.css')}}" rel="stylesheet">
-
     <!-- Custom Theme Style -->
     <link href="{{asset('/build/css/custom.css')}}" rel="stylesheet">
 </head>
-
 <body class="login">
 @yield('content')
 </body>

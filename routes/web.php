@@ -18,3 +18,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('InsuranceInquiry', function () {
+    $usersbime = \Modules\UsersBime\Entities\UsersBime::all();
+    return response()->json($usersbime);
+});
